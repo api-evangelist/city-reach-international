@@ -1,23 +1,68 @@
 aid: city-reach-international
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/city-reach-international.png
 name: City Reach International
-description: City Reach International is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'City Reach International Limited was a UK-registered telecommunications and
+  internet-infrastructure company, incorporated 14 April 2000 at 8 Salisbury Square, Blackfriars,
+  London EC4Y 8BB (Companies House number 03973748), classified under SIC 6420 (telecommunications)
+  and 7260 (other computer related activities). It was a dot-com era venture backed in part by
+  Battery Ventures, and appears on the Battery Ventures all-companies list, which is how it entered
+  the API Evangelist network. The company was dissolved on 13 May 2014. Enrichment probing in July
+  2026 found no surviving corporate website, developer portal, documentation, or API surface: the
+  candidate domains cityreach.com, cityreachinternational.com, cityreach.net and
+  cityreachinternational.co.uk do not resolve, and cityreach.co.uk resolves only to a parked
+  domain-for-sale landing page. There is no API, specification, SDK, or event surface to catalog for
+  this company, and none should be fabricated.'
 url: https://raw.githubusercontent.com/api-evangelist/city-reach-international/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-dissolved: '2014-05-13'
+x-incorporated: '2000-04-14'
+x-registry:
+  name: UK Companies House
+  company_number: '03973748'
+  legal_name: CITY REACH INTERNATIONAL LIMITED
+  url: https://find-and-update.company-information.service.gov.uk/company/03973748
+  status: Dissolved
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Telecommunications
+- Internet Infrastructure
+- Defunct
+- United Kingdom
+- Venture Backed
 apis: []
+common:
+- type: CompanyRegistry
+  name: UK Companies House record
+  url: https://find-and-update.company-information.service.gov.uk/company/03973748
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: Company dissolved 2014-05-13; no live domain, docs, or API surface found. No
+    artifacts creatable without fabrication.
